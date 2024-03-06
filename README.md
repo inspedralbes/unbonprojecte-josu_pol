@@ -11,7 +11,7 @@ El projecte s'ha de poder desplegar en mode desenvolupament simplement fent dock
 
 # Aquest fitxer ha de contenir com a mínim:
  * Pol Doña Pozuelo, Josu Largo Fernandez
- * Nom del projecte
+ * Coches 
  * Petita descripció
  * Adreça del gestor de tasques (taiga, jira, trello...)
  * Adreça del prototip gràfic del projecte (Penpot, figma, moqups...)

@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Coche extends Model
 {
+
     protected $fillable = ['marca', 'modelo', 'año'];
+    protected $table = "coches";
 }

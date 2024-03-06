@@ -14,3 +14,6 @@ INSERT INTO coches (marca, modelo, año) VALUES
 ('Subaru', 'Impreza', 2023),
 ('Mazda', '3', 2021),
 ('Volvo', 'S60', 2019);
+('Seat', 'S60', 2019);
+('Ibiza', 'S60', 2019);
+('Volvo', '2000', 2019);

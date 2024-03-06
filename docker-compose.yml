@@ -6,12 +6,12 @@ services:
     container_name: laravel_app
     ports:
       - '8000:8000' 
-    volumes:
+    volumes:  
       - ./laravel:/var/www/html 
     environment:
       - APP_ENV=local
       - APP_KEY=base64:cqK4VQdfC8q4IhX9oADsFkD2gBrHbjXO1NzweuUdHgg=
-    command: bash -c "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && composer install && php artisan key:generate"
+    command: bash -c "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && composer install"
 
   nuxt:
     image: 'nuxt:latest'

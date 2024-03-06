@@ -11,6 +11,7 @@ services:
     environment:
       - APP_ENV=local
       - APP_KEY=base64:cqK4VQdfC8q4IhX9oADsFkD2gBrHbjXO1NzweuUdHgg=
+    command: bash -c "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && composer install && php artisan key:generate"
 
   nuxt:
     image: 'nuxt:latest'
@@ -21,3 +22,4 @@ services:
       - ./nuxt:/app 
     environment:
       - NODE_ENV=development
+    command: bash -c "npm install"
